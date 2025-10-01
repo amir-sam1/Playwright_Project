@@ -6,7 +6,7 @@ const config = {
     timeout: 40000,
     use:{
         baseURL: "https://opensource-demo.orangehrmlive.com",
-        headless: true,
+        headless: false,
         //browserName: 'firefox',
         trace: 'retain-on-failure',
         screenshot: 'only-on-failure',
