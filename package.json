@@ -1,0 +1,19 @@
+{
+  "name": "first-playright",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "allure-playwright": "^3.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
+}
