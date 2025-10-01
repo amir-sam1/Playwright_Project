@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const config = {
     testDir: 'POM',
-    // timeout: 15000,
+    timeout: 40000,
     use:{
         baseURL: "https://opensource-demo.orangehrmlive.com",
         headless: true,
