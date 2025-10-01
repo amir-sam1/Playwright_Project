@@ -1,7 +1,7 @@
 name: Playwright Tests
 on:
-#   push:
-#     branches: [ main ]
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -14,6 +14,7 @@ env:
 jobs:
   test:
     timeout-minutes: 60
+    environment: Test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
