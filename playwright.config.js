@@ -34,17 +34,17 @@ const config = {
     },
   ],
 
-    // reporter: process.env.CI ? [['dot'], ['html']] : 'list',
-       reporter: [
-         [
-           "allure-playwright",
-           {
-            detail: true,
-             outputFolder: "my-allure-results",
-            suiteTitle: false,
-         },
-        ],
-       ],
+    reporter: process.env.CI ? [['dot'], ['html']] : 'list',
+      //  reporter: [
+      //    [
+      //      "allure-playwright",
+      //      {
+      //       detail: true,
+      //        outputFolder: "my-allure-results",
+      //       suiteTitle: false,
+      //    },
+      //   ],
+      //  ],
 
     // reporter: './MyReporter.js',
 
