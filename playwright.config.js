@@ -19,19 +19,19 @@ const config = {
     },
     // Configure projects for major browsers.
   projects: [
-    {
-      name: 'chromium',
-      use: { ...devices['Pixel 5'] },
-    },
+    // {
+    //   name: 'chromium',
+    //   use: { ...devices['Pixel 5'] },
+    // },
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-    },
-    {
-      name: 'chromium',
-      use: { ...devices['iphone 13 pro Max'] },
+    }
+    // {
+    //   name: 'chromium',
+    //   use: { ...devices['iphone 13 pro Max'] },
 
-    },
+    // },
   ],
 
     reporter: process.env.CI ? [['dot'], ['html']] : 'list',
