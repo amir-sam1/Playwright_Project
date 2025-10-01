@@ -44,7 +44,7 @@ test.describe('Register user', async()=>{
         //click on continue btn
         await accountCreatePage.continueBtn.click()
 
-        //verify that logged in as mohamed in home page 
+        //verify that logged in as amir in home page 
         await expect(await homePage.getElementByText(' Logged in as amir')).toBeVisible();
 
         //click on delete account button from header page 
